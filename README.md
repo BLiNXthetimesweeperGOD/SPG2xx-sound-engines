@@ -25,7 +25,6 @@ V.Smile has a few formats (and all but the sequences have headers!). Here's a li
 Some other stuff:
 
 - Sequence table (the pointer format still needs to be figured out)
-- 
 
 # Sports Vii
 This uses a lot of the same formats as the V.Smile.
@@ -37,3 +36,6 @@ As the name suggests, these are Plug 'N Plays. Several were made and they all wo
 
 Some other stuff:
 - Sequence table seems to be spread across the ROMs. Each channel is loaded individually in a lot of cases.
+
+# LeapFrog ClickStart
+Almost nothing is known about this one yet. It appears to use a custom sound engine and the audio codec isn't the same as any of the other systems.

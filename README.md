@@ -16,6 +16,7 @@ Work-in-progress stuff:
 
 
 #V.Smile
+
 V.Smile has a few formats (and all but the sequences have headers!). Here's a list of them:
 - SP_Tonemaker (not fully documented yet, but it's being worked on. Seems to be some sort of configuration data for the sound.)
 - Sunplus Tech.02. (Instruments. Not all can be played back yet, but they're being worked on. Can be IMA ADPCM, Unsigned 8-Bit PCM or 16-Bit PCM.)

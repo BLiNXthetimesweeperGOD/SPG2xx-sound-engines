@@ -16,8 +16,20 @@ Work-in-progress stuff:
 
 
 # V.Smile
-
 V.Smile has a few formats (and all but the sequences have headers!). Here's a list of them:
 - SP_Tonemaker (not fully documented yet, but it's being worked on. Seems to be some sort of configuration data for the sound.)
 - Sunplus Tech.02. (Instruments. Not all can be played back yet, but they're being worked on. Can be IMA ADPCM, Unsigned 8-Bit PCM or 16-Bit PCM.)
 - SunplusTech.02. (Voices and sound effects. IMA ADPCM.)
+- Sequences (unknown, the actual data for them still needs to be found)
+
+Some other stuff:
+
+- Sequence table (the pointer format still needs to be figured out)
+- 
+
+# JAKKS PACIFIC Plug it in and Play TV Games
+- Instruments all use unsigned 8-Bit PCM and are stored at the end of the ROMs in most cases
+- Sequences (unknown, the actual data for them still needs to be found)
+
+Some other stuff:
+- Sequence table seems to be spread across the ROMs. Each channel is loaded individually in a lot of cases.

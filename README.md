@@ -12,7 +12,7 @@ Work-in-progress stuff:
 - Automating the extraction of sequences (and documenting the commands within the said sequences)
 - Listing every sound engine and how they work (there's more than 1)
 - Listing every codec used by each system individually
-- A genuinely full list of systems using SPG2xx hardware
+- A genuinely full list of systems using SPG2xx hardware (including each JAKKS PACIFIC Plug 'N Play)
 
 
 #V.Smile

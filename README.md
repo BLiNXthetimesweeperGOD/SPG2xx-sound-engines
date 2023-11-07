@@ -27,7 +27,11 @@ Some other stuff:
 - Sequence table (the pointer format still needs to be figured out)
 - 
 
+# Sports Vii
+This uses a lot of the same formats as the V.Smile.
+
 # JAKKS PACIFIC Plug it in and Play TV Games
+As the name suggests, these are Plug 'N Plays. Several were made and they all work in mostly the same way.
 - Instruments all use unsigned 8-Bit PCM and are stored at the end of the ROMs in most cases
 - Sequences (unknown, the actual data for them still needs to be found)
 

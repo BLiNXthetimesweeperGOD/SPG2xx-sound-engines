@@ -15,7 +15,7 @@ Work-in-progress stuff:
 - A genuinely full list of systems using SPG2xx hardware (including each JAKKS PACIFIC Plug 'N Play)
 
 
-#V.Smile
+# V.Smile
 
 V.Smile has a few formats (and all but the sequences have headers!). Here's a list of them:
 - SP_Tonemaker (not fully documented yet, but it's being worked on. Seems to be some sort of configuration data for the sound.)

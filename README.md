@@ -33,6 +33,7 @@ This uses a lot of the same formats as the V.Smile.
 As the name suggests, these are Plug 'N Plays. Several were made and they all work in mostly the same way.
 - Instruments all use unsigned 8-Bit PCM and are stored at the end of the ROMs in most cases
 - Sequences (unknown, the actual data for them still needs to be found)
+- These systems have test modes that can be accessed at the boot screens. These can be used to more easily figure out the format.
 
 Some other stuff:
 - Sequence table seems to be spread across the ROMs. Each channel is loaded individually in a lot of cases.

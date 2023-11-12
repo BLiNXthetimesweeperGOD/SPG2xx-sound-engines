@@ -38,4 +38,7 @@ Some other stuff:
 - Sequence table seems to be spread across the ROMs. Each channel is loaded individually in a lot of cases.
 
 # LeapFrog ClickStart
-Almost nothing is known about this one yet. It appears to use a custom sound engine and the audio codec isn't the same as any of the other systems.
+- Uses a newer sound engine, but the said engine still uses parts of the engine used on the V.Smile/Sports Vii (such as the SP_ToneMaker data)
+- MAME doesn't emulate the voices yet. They might be in the same format as the original LeapPad and the Leapster, as I haven't found what codec they use yet.
+- Modifying (what I believe are) the sequences in any way tends to crash MAME with an invalid instruction error.
+- Some games (such as Finding Nemo: Sea of Keys) store some audio as unsigned 8-Bit PCM.

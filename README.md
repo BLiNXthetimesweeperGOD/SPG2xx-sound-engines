@@ -22,10 +22,6 @@ V.Smile has a few formats (and all but the sequences have headers!). Here's a li
 - SunplusTech.02. (Voices and sound effects. IMA ADPCM.)
 - Sequences (unknown, the sequence data has been found but is still entirely undocumented)
 
-Some other stuff:
-
-- Sequence table (the pointer format still needs to be figured out)
-
 # Sports Vii
 This uses a lot of the same formats as the V.Smile.
 

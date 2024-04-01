@@ -20,7 +20,7 @@ V.Smile has a few formats (and all but the sequences have headers!). Here's a li
 - SP_Tonemaker (not fully documented yet, but it's being worked on. Seems to be some sort of configuration data for the sound.)
 - Sunplus Tech.02. (Instruments. Not all can be played back yet, but they're being worked on. Can be IMA ADPCM, Unsigned 8-Bit PCM or 16-Bit PCM.)
 - SunplusTech.02. (Voices and sound effects. IMA ADPCM.)
-- Sequences (unknown, the actual data for them still needs to be found)
+- Sequences (unknown, the sequence data has been found but is still entirely undocumented)
 
 Some other stuff:
 

@@ -38,6 +38,7 @@ for file_path in files:
         prevnotes = []
         prevdelay = 0 #For testing something
         hits = 0
+        
         while True:
             data = sun.read(2)
             if not data:
@@ -57,15 +58,16 @@ for file_path in files:
                     tempo = tempoconverted
                 #track.append(mido.MetaMessage('set_tempo', tempo=tempo*20))
                 track.append(mido.MetaMessage('set_tempo', tempo=5000))
+                
             if data[1] in range(0, 16): #Program change
                 channel = data[1]
                 add_midi_message('program_change', channel, data[0], None, 0)
-            if data[1] == 0x10: #Pitchwheel (and others?)
+                
+            if data[1] == 0x10: #"Pitchwheel" (and others?)
                 sun.read(2)
                 add_midi_message('note_off', note[1], note[0], 0, delay)
-            if data[1] == 0x40: #Beat count value (might be how long the notes are all held for?)
-                #print(f"Beat Count Value: {data[0]}")
-                #current_time += data[0]
+                
+            if data[1] == 0x40: #"Beat count" value (might be how long the notes are all held for?)
                 var = 0 #The current channel
                 hits += 1
                 #if hits == 2:
@@ -91,10 +93,6 @@ for file_path in files:
                 prevnotes.append(note)
                 #add_midi_message('note_on', channel, data2[0], data3[0])
                 add_midi_message('note_on', channel, data2[0], data3[0], delta_time)
-                
-            
-                
-
     base, ext = os.path.splitext(file_path)
     output_path = f"{base}_converted.mid"
     mid.save(output_path)

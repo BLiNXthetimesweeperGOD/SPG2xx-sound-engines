@@ -44,6 +44,6 @@ As the name suggests, these are Plug 'N Plays. Several were made and they all wo
 # Other important information
 My conversion script makes use of the Python Mido library. Be sure to run "pip install mido" if you want it to work!
 
-Some games may not have their sequences or sounds get extracted properly with the VRipper script. That's likely due to differences in the sound engine or programming of the said games.
+Some games may not have their sequences or sounds get extracted properly with the VRipper script. That's likely due to differences in the sound engine or programming of the said games. Please make an issue for the said games (V.Smile only for now) so I can eventually look into them.
 
 I am primarily focused on the V.Smile and JAKKS Pacific stuff for now since they have the most games with unique sound engines.

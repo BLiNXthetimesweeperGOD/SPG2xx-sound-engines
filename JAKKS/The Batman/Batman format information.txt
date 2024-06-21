@@ -13,3 +13,6 @@ XXYY - Note (X is the note, Y is the length of the note. Notes are limited to a 
 XXFF - ? (no idea what this does, appears often though. The value of XX can vary, but the second byte is always FF)
 B0XX - Program change (XX is the instrument ID)
 F000 - End of track
+
+Using the Python scripts:
+Run BatmanExtractor on your The Batman ROM and run the conversion script before selecting all 4 channels for the song you wish to convert to MIDI. Only select files that are greater than 0 kilobytes! Anything that's 0 KB will fail to convert because it's an invalid file. The conversion script requires MIDO to work, so be sure to run "pip install mido" before running it.

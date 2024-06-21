@@ -9,7 +9,7 @@ Currently completed stuff:
 Work-in-progress stuff:
 - Detection of the type of instrument in V.Smile games to make the output txth file work better/play everything properly
 - Extracting sounds and instruments from non-V.Smile games (such as the JAKKS Pacific Plug 'N Plays and the LeapFrog ClickStart)
-- Automating the extraction of sequences (and documenting the commands within the said sequences) (mainly just JAKKS, the V.Smile and all SunMidi stuff is mostly figured out already)
+- Automating the extraction of sequences (and documenting the commands within the said sequences) (mainly just JAKKS and the non-V.Smile devices, the V.Smile is mostly figured out already)
 - Listing every sound engine and how they work (there's more than 1)
 - Listing every codec used by each system individually
 - A genuinely full list of systems using SPG2xx hardware (including each JAKKS PACIFIC Plug 'N Play)

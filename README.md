@@ -33,11 +33,11 @@ V.Smile has a few formats (and all but the sequences have headers!). Here's a li
 This uses a lot of the same formats as the V.Smile and ClickStart. Still needs research when it comes to finding the tables with this stuff though.
 
 # JAKKS PACIFIC Plug it in and Play TV Games
-As the name suggests, these are Plug 'N Plays. Several were made and they all work in mostly the same way.
+As the name suggests, these are Plug 'N Plays. Several were made. Some work the same, but a lot of these actually work quite differently from each other.
 - Instruments all use unsigned 8-Bit PCM and are stored at the end of the ROMs in most cases
 - Sequences (custom, completely different to how the SunPlus SunMidi/SunMidiAr format works)
 - These systems have test modes that can be accessed at the boot screens. These can be used to more easily figure out the format.
-- The sequence table seems to be spread across the ROMs. Each channel is loaded individually and played as a separate sequence.
+- The sequence table seems to be spread across the ROMs. Each channel is loaded individually and played as a separate sequence. (This is mainly just true for The Batman)
 
 
 

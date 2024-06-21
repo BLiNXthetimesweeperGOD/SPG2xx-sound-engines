@@ -47,3 +47,9 @@ My conversion scripts make use of the Python Mido library. Be sure to run "pip i
 Some games may not have their sequences or sounds get extracted properly with the VRipper script. That's likely due to differences in the sound engine or programming of the said games. Please make an issue for the said games (V.Smile only for now) so I can eventually look into them.
 
 I am primarily focused on the V.Smile and JAKKS Pacific stuff for now since they have the most games with unique sound engines.
+
+If you use the V.Smile sound extractor, make sure you have Foobar2000 and the VGMStream plugin installed. Here's what you need to do to use the output:
+- Go to file > preferences > playback > decoding > vgmstream
+- Check the "Enable unknown exts" box
+
+After that, the output files should play directly within Foobar2000. You can even batch convert them all to WAV (or other codecs if you installed the free encoder pack) by selecting them all and right clicking before going to the convert tab.

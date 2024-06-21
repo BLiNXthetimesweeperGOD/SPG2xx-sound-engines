@@ -15,4 +15,7 @@ B0XX - Program change (XX is the instrument ID)
 F000 - End of track
 
 Using the Python scripts:
-Run BatmanExtractor on your The Batman ROM and run the conversion script before selecting all 4 channels for the song you wish to convert to MIDI. Only select files that are greater than 0 kilobytes! Anything that's 0 KB will fail to convert because it's an invalid file. The conversion script requires MIDO to work, so be sure to run "pip install mido" before running it.
+Run BatmanExtractor on your The Batman ROM and run the conversion script before selecting all 4 channels for the song you wish to convert to MIDI. 
+Only select files that are greater than 0 kilobytes! 
+Anything that's 0 KB will fail to convert because it's an invalid file. 
+The conversion script requires MIDO to work, so be sure to run "pip install mido" before running it.

@@ -18,7 +18,7 @@ Work-in-progress stuff:
 V.Smile has a few formats (and all but the sequences have headers!). Here's a list of them:
 - SP_Tonemaker (not fully documented yet, but it's being worked on. Seems to be some sort of configuration data for the sound.)
 - Sunplus Tech.02. (Instruments. Not all can be played back yet, but they're being worked on. Can be IMA ADPCM, Unsigned 8-Bit PCM or 16-Bit PCM.)
-- SunplusTech.02. (Voices and sound effects. IMA ADPCM.)
+- SunplusTech.02. (Voices and sound effects. IMA ADPCM-like encoding.)
 - Sequences (these are in a SunPlus format known as SunMidi/SunMidiAr. I've documented everything I know about it so far.)
 - The sequence and sound effect/voice tables are in the same area of the ROM
 

@@ -1,0 +1,15 @@
+Song table offset:
+0x1D85D8 (there's 10 songs, everything before this appears to be sound effects)
+Pointers must be multiplied by 2 to get the true offsets. The same thing applies to the next section.
+
+Sequence index table format:
+XXXX - Unsigned integer for channel count
+YYYY - Unknown (skip this one, the format will parse fine without it)
+ZZZZZZZZ - Sequence offset (repeat for however many channels there are)
+
+Sequence format:
+This format is little endian. XXYY is actually stored as YYXX (but is read as XXYY).
+XXYY - Note (X is the note, Y is the length of the note. Notes are limited to a range between 00 and 7F.)
+XXFF - ? (no idea what this does, appears often though. The value of XX can vary, but the second byte is always FF)
+B0XX - Program change (XX is the instrument ID)
+F000 - End of track

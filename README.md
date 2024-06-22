@@ -39,7 +39,51 @@ As the name suggests, these are Plug 'N Plays. Several were made. Some work the 
 - These systems have test modes that can be accessed at the boot screens. These can be used to more easily figure out the format.
 - The sequence table seems to be spread across the ROMs. Each channel is loaded individually and played as a separate sequence. (This is mainly just true for The Batman)
 
+# JAKKS PACIFIC game list (by developer)
+5000ft, Inc:
+- Disney Princess
+- Disney Princesses
 
+Amaze Entertainment:
+- DreamWorks Movie Night (unreleased)
+- Star Wars: Original Trilogy
+- X-Men: Mutant Reign
+
+Backbone Entertainment:
+- Care Bears TV Games
+- Winnie the Pooh: Piglet's Special Day
+
+Digital Eclipse:
+- Fantastic Four
+- Mortal Kombat
+- Spider-Man
+
+Griptonite Games:
+- Star Wars: Revenge of the Sith
+
+HotGen Limited:
+- Cars 2
+- Capcom 3-in-1
+- Classic Arcade Pinball
+- Disney
+- Disney Friends
+- Golden Tee Golf
+- Hannah Montana
+- Hannah Montana Pop Tour: Guitar Video Game
+- High School Musical
+- Ms. Pac-Man Collection
+- Retro Arcade featuring Pac-Man
+- Sing Scene: Pop
+- SpongeBob SquarePants
+- SpongeBob SquarePants: Jellyfish Dodge
+- SpongeBob SquarePants: The Fry Cook Games
+- Thomas & Friends: Right on Time
+- Wall-E
+- Wheel of Fortune
+- WWE
+
+Taniko:
+- Justice League
 
 # Other important information
 My conversion scripts make use of the Python Mido library. Be sure to run "pip install mido" if you want them to work!

@@ -62,18 +62,13 @@ Griptonite Games:
 - Star Wars: Revenge of the Sith
 
 HotGen Limited:
-- Cars 2
 - Capcom 3-in-1
 - Classic Arcade Pinball
 - Disney
 - Disney Friends
 - Golden Tee Golf
-- Hannah Montana
-- Hannah Montana Pop Tour: Guitar Video Game
-- High School Musical
 - Ms. Pac-Man Collection
 - Retro Arcade featuring Pac-Man
-- Sing Scene: Pop
 - SpongeBob SquarePants
 - SpongeBob SquarePants: Jellyfish Dodge
 - SpongeBob SquarePants: The Fry Cook Games

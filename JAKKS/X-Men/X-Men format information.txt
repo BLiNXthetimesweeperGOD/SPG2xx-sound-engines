@@ -1,0 +1,2 @@
+Song table offset:
+0x3D500A

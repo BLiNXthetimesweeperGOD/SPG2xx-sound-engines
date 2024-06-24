@@ -47,7 +47,7 @@ As the name suggests, these are Plug 'N Plays. Several were made. Some work the 
 Amaze Entertainment:
 - DreamWorks Movie Night (unreleased)
 - Star Wars: Original Trilogy
-- X-Men: Mutant Reign
+- X-Men: Mutant Reign (unreleased)
 
 Backbone Entertainment:
 - Care Bears TV Games

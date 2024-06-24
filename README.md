@@ -16,7 +16,7 @@ Work-in-progress stuff:
 
 # V.Smile (and all variants that are also SPG2xx-based)
 V.Smile has a few formats (and all but the sequences have headers!). Here's a list of them:
-- SP_Tonemaker (not fully documented yet, but it's being worked on. Seems to be some sort of configuration data for the sound.)
+- SP_Tonemaker (not fully documented yet, but it's being worked on. Seems to be some sort of configuration data for the sound. Sometimes also stores the sounds as well?)
 - Sunplus Tech.02. (Instruments. Not all can be played back yet, but they're being worked on. Can be IMA ADPCM (or a similar format), Unsigned 8-Bit PCM or 16-Bit PCM.)
 - SunplusTech.02. (Voices and sound effects. IMA ADPCM-like encoding.)
 - Sequences (these are in a SunPlus format known as SunMidi/SunMidiAr. I've documented everything I know about it so far.)

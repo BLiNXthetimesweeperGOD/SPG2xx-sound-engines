@@ -3,7 +3,7 @@ A repository for documentation and tools for the various sound engines and forma
 
 
 Currently completed stuff:
-- Scripts for extracting instruments, sound effects, voices and sequences from V.Smile games
+- A script for extracting instruments from V.Smile games (needs a redo though)
 
 
 Work-in-progress stuff:

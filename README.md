@@ -24,8 +24,8 @@ V.Smile has a few formats (and all but the sequences have headers!). Here's a li
 
 # LeapFrog ClickStart: My First Computer
 - Uses a newer sound engine, but the said engine still uses parts of the engine used on the V.Smile (such as the SP_ToneMaker and sequence data)
-- MAME doesn't emulate the voices yet. They might be in the same format as the original LeapPad and the Leapster, as I haven't found what codec they use yet.
-- Instruments and sound effects are stored in an unknown codec (which is emulated in MAME, but I have yet to find the name or decode these outside of emulation)
+- MAME doesn't emulate the voices yet. They likely use the S720 codec.
+- Instruments, voice clips and sound effects are stored in the Sunplus A1600 and S720 codecs.
 - Some games (such as Finding Nemo: Sea of Keys) store some audio as unsigned 8-Bit PCM.
 - Sequences (same format as the V.Smile)
 

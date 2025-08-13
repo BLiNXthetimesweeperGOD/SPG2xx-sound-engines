@@ -1,6 +1,7 @@
 # SPG2xx-sound-engines
 A repository for documentation and tools for the various sound engines and formats used on SPG2xx-based devices.
 
+You may use the code and information found in this repository as you wish.
 
 Currently completed stuff:
 - A script for extracting instruments from V.Smile games (needs a redo though)

@@ -3,10 +3,11 @@ Everything is stored as little endian words. As an example:
 
 Command list:
 00XX-0FXX = program change (set instrument) the first value is the channel
-10X0 YYYY = pitch bend? (X might be the channel, Y is likely the bend in an unknown format)
+10XY YYYY = pitch bend? (X might be the channel, Y is the bend in an unknown format)
 2000 = end of song data
 2XYY = tempo (x is part of the command, it has to be 8 or higher to register as a tempo command. Tempo is applied to every channel at once.)
-40XX = How long the most recently entered notes are held (?)
-8??W XXYY XXZZ = note (? is partially figured out but not fully known, X is completely unknown, W is the channel, Y is the note and Z is the volume) this can be repeated several times in a row
+40XX = How long the most recently entered notes are held
+8??W XXYY XXZZ-F??W XXYY XXZZ = note (? is partially figured out but not fully known, X is completely unknown, W is the channel, Y is the note and Z is the volume) this can be repeated several times in a row
 
 ?? in the note data above converts to an 8-Bit number internally referred to as "DT". It's unknown what exactly this is for, but it might be Duration.
+
